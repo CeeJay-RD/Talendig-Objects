@@ -1,5 +1,4 @@
 const formularioGato = document.querySelector('#formulario-gato');
-console.log(formularioGato);
 const gatosRegistrados = [];
 
 formularioGato.addEventListener('submit', function(event) {
@@ -22,12 +21,11 @@ const nuevoGato = {
     formularioGato.reset();
     
 
-    console.log(gatosRegistrados);
+    console.table(gatosRegistrados);
 
 });
 
 const formularioCarro = document.querySelector('#formulario-carro');
-console.log(formularioCarro);
 const carrosRegistrados = [];
 
 formularioCarro.addEventListener('submit', function(event) {
@@ -49,7 +47,7 @@ const nuevoCarro = {
     formularioCarro.reset();
     
 
-    console.log(carrosRegistrados);
+    console.table(carrosRegistrados);
 
 });
 
@@ -75,14 +73,12 @@ const nuevaFruta = {
     formularioFruta.reset();
     
 
-    console.log(frutasRegistradas);
+    console.table(frutasRegistradas);
 
 });
 
 
 const registroBtn = document.querySelector('#btn-registros')
-
-console.log(registroBtn)
 
 registroBtn.addEventListener('click', function(event) {
     console.table(gatosRegistrados);

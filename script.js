@@ -1,30 +1,3 @@
-/* const gato = {
-    nombre: "Misifú",
-    edad: 2,
-    color: "gris",
-    raza: "siamés",
-    razaPadre: "siamés",
-    razaMadre: "siamés"
-  };
-  
-  let fruta = {
-    nombre: ,
-    color: ,
-    sabor: ,
-    madurez: ,
-  };
-  
-  
-  let carro = {
-    marca: ,
-    modelo: ,
-    año: ,
-    color: ,
-    matrícula: ,
-  };
-
-*/
-
 const formularioGato = document.querySelector('#formulario-gato');
 console.log(formularioGato);
 const gatosRegistrados = [];

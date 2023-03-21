@@ -8,10 +8,10 @@
   };
   
   let fruta = {
-    nombre: "manzana",
-    color: "rojo",
-    sabor: "dulce",
-    madurez: "madura",
+    nombre: ,
+    color: ,
+    sabor: ,
+    madurez: ,
   };
   
   
@@ -54,7 +54,7 @@ const nuevoGato = {
 });
 
 const formularioCarro = document.querySelector('#formulario-carro');
-console.log(ormularioCarro);
+console.log(formularioCarro);
 const carrosRegistrados = [];
 
 formularioCarro.addEventListener('submit', function(event) {
@@ -74,6 +74,32 @@ const nuevoCarro = {
     
 
     formularioCarro.reset();
+    
+
+    console.log(carrosRegistrados);
+
+});
+
+const formularioFruta = document.querySelector('#formulario-fruta');
+console.log(formularioFruta);
+const frutasRegistradas = [];
+
+formularioFruta.addEventListener('submit', function(event) {
+event.preventDefault();
+
+const nuevaFruta = {
+
+    nombre: document.querySelector('#nombreFruta').value,
+    color: document.querySelector('#colorFruta').value,
+    sabor: document.querySelector('#saborFruta').value,
+    madurez: document.querySelector('#madurezFruta').value,
+    };
+    
+
+    frutasRegistradas.push(nuevaFruta);
+    
+
+    formularioFruta.reset();
     
 
     console.log(carrosRegistrados);

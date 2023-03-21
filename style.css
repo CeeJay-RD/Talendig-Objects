@@ -88,6 +88,7 @@ body {
     cursor: pointer;
     background-color: #7aa97a;
     transform: scale(1.09);  
+    transition: all 0.1s ease-in-out;
 }
 
 
@@ -101,4 +102,44 @@ body {
 
 #btn-fruta {
     margin-top: 90px;
+}
+
+#registros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
+
+#btn-registros{
+    padding: 8px 12px;
+    border-radius: 9px;
+    outline: transparent;
+    border-style: solid;
+    background-color: #0c3249;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn-registros:hover {
+    padding: 8px 12px;
+    border-radius: 9px;
+    outline: transparent;
+    border-style: solid;
+    border-color: #0c3249;
+    cursor: pointer;
+    background-color: #186695;
+    transform: scale(1.1);  
+}
+
+#btn-registros:active {
+    padding: 8px 12px;
+    border-radius: 9px;
+    outline: transparent;
+    border-style: solid;
+    border-color: #0c3249;
+    cursor: pointer;
+    background-color: #0f4362;
+    transform: scale(1.09);  
+    transition: all 0.1s ease-in-out;
 }

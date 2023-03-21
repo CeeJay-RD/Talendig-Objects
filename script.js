@@ -106,3 +106,13 @@ const nuevaFruta = {
 
 });
 
+
+const registroBtn = document.querySelector('#btn-registros')
+
+console.log(registroBtn)
+
+registroBtn.addEventListener('click', function(event) {
+    console.table(gatosRegistrados);
+    console.table(carrosRegistrados);
+    console.table(frutasRegistradas);
+  });

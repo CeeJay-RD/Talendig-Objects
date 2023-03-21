@@ -70,7 +70,7 @@ const nuevoCarro = {
     };
     
 
-    gatosRegistrados.push(nuevoCarro);
+    carrosRegistrados.push(nuevoCarro);
     
 
     formularioCarro.reset();
@@ -102,7 +102,7 @@ const nuevaFruta = {
     formularioFruta.reset();
     
 
-    console.log(carrosRegistrados);
+    console.log(frutasRegistradas);
 
 });
 
